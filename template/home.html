@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人主页</title>
+</head>
+<body>
+{% for i in gallerys.all%}
+{{i.description}}
+<br>
+{%endfor%}
+</body>
+</html>
