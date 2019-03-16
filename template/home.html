@@ -6,8 +6,12 @@
 </head>
 <body>
 {% for i in gallerys.all%}
+{{i.title}}
+<br>
 {{i.description}}
 <br>
+<img src="{{i.image.url}}" alt="" height="400" width="300">
+<br><br>
 {%endfor%}
 </body>
 </html>
