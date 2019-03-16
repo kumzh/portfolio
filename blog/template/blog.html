@@ -80,7 +80,7 @@
   <div class="container">
     <div >
       {% for i in blogs.all%}
-      <h2><a href="">{{i.title}}</a></h2>
+      <h2><a href="{{i.id}}">{{i.title}}</a></h2>
       <br>
       {{i.date}}
       <br>
