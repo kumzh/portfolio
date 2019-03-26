@@ -1,6 +1,11 @@
 from django.db import models
 
 # Create your models here.
+from django.views.generic import TemplateView
+DJANGO_ECHARTS = {
+    'echarts_version': '4.0.4',
+    'lib_js_host':'cdnjs'
+}
 
 
 class Blog(models.Model):
@@ -13,3 +18,4 @@ class Blog(models.Model):
 
     def description(self):
         return self.text[:100] + '....'
+

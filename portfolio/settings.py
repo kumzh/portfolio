@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'gallery.apps.GalleryConfig',
     'blog',
+    'django_echarts',
 ]
 
 MIDDLEWARE = [
